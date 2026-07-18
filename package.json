@@ -1,0 +1,22 @@
+{
+  "name": "arys-ai",
+  "version": "1.5.1",
+  "description": "Arys AI - Premium AI Assistant with Web Search",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler pages dev docs",
+    "deploy:pages": "wrangler pages deploy docs",
+    "lint": "eslint worker/ docs/js/",
+    "format": "prettier --write worker/ docs/js/ docs/css/"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
