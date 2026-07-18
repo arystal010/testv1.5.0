@@ -5,7 +5,7 @@ workers_dev = true
 minify = true
 
 [vars]
-APP_URL = "https://arystal010.github.io/ArysAi-Website/"
+APP_URL = "https://arystal010.github.io/testv1.5.0//"
 # Add your OpenRouter API key as a secret (never put it here):
 # wrangler secret put OPENROUTER_API_KEY
 # Add your Firecrawl API key as a secret (never put it here):
