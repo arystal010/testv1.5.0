@@ -1,4 +1,5 @@
-name = 'arysaiwebsite'
+# wrangler.toml
+name = 'testv150'
 main = "worker/index.js"
 compatibility_date = "2026-07-15"
 workers_dev = true
